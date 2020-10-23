@@ -1,0 +1,39 @@
+/* This is a basic internal css style */
+body {
+  color: blue;
+  background-color: lightblue;
+}
+
+p {
+color: darkgreen;
+width: 33%;
+text-align: justify;
+}
+
+.main-paragraph:hover{
+  background-color: rgba (255, 11, 11, 0.17);
+  padding: 1rem;
+}
+
+a [href="https://wwww.google.com"]{
+  color: green;
+
+}
+
+a:hover {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.castle {
+  border-radius: 10px;
+
+}
+
+#rock {
+    border-radius: 20px;
+    border-size: 5px;
+    border-color: darkgreen;
+    border-style: dotted;
+}

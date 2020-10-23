@@ -4,53 +4,25 @@
 
   </head>>
     <meta charset="UTF-8">
-    <title></title>
-    <style>
+    <title>Lesson 03 - Introduction of CSS</title>
 
-      /* This is a basic internal css style */
-      body {
-        color: blue;
-        background-color: lightblue;
-      }
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
 
-      p {
-      color: darkgreen;
-      width: 33%;
-    }
-
-      .main-paragraph:hover{
-        background-color: rgba (255, 11, 11, 0.17);
-      }
-
-      a [href="https://wwww.google.com"]{
-        color: green;
-
-      }
-
-      a:hover {
-        color: blue;
-        font-weight: bold;
-        text-decoration: none;
-      }
-
-      .castle {
-        border-radius: 10px;
-
-      }
-
-      #rock {
-          border-radius: 20px;
-          border-size: 5px;
-          border-color: darkgreen;
-          border-style: dotted;
-      }
-
-
-    </style>
   </head>
 
   <body>
+    <header>
+
+
     <h1>Website Title Text</h1>
+    <nav>
+      <a href="https://www.google.com">Google</a>
+
+      <a href="./index.html">Home</a>
+    </nav>
+    </header>
+
+    <br>
     <article>
     <p class="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </article>
@@ -65,13 +37,10 @@
       </ul>
     </div>
 
-    <a href="https://www.google.com">Google</a>
-    <br>
-    <a href="./index.html">Home</a>
-    <br>
 
-    <img src="https://picsum.photos/id/1040/367/267" alt="german iconic castle" class="castle">
-    <img src="https://picsum.photos/id/1049/367/267" alt="rock in the sea" id="rock">
+
+    <img class="castle" src="https://picsum.photos/id/1040/367/267" alt="german iconic castle">
+    <img id="rock" src="https://picsum.photos/id/1049/367/267" alt="rock in the sea">
 
   </body>
 </html>
